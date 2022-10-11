@@ -36,7 +36,7 @@ app.post("/", (req, res) => {
 
     const jsonData = JSON.stringify(data);
 
-    const url = "https://us14.api.mailchimp.com/3.0/lists/99b26ae9fe";
+    const url = "https://usX.api.mailchimp.com/3.0/lists/*unique ID*";
 
     const options = {
       method: "POST",
@@ -73,9 +73,3 @@ app.listen(process.env.PORT || 3000, () => {
 })
 
 
-// Api key
-// 0f95e49dcb3db0da9ae20a5e62f3fc69-us14
-
-
-// unique ID
-// 99b26ae9fe
